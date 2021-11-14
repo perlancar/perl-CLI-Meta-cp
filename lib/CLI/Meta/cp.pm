@@ -28,7 +28,7 @@ our $META = {
         'no-preserve=s' => undef,
         'parents' => undef,
         'recursive|R|r' => undef,
-        'reflink=s' => {completion=>[qw//auto always never]},
+        'reflink=s' => {completion=>[qw/auto always never/]},
         'strip-trailing-slashes' => undef,
         'symbolic-link|s' => undef,
         'suffix|S=s' => undef,
